@@ -10,7 +10,7 @@ jobs:
   Update_Release_Draft:
     uses: jonathan-kline/hello-world/.github/workflows/Release-Drafter.yml@main
     with:
-      config-name: .github/release-drafter.yml
+      config-path: .github/release-drafter.yml
     secrets:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
