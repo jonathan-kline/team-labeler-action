@@ -5,10 +5,9 @@ on:
     types: [opened]
 jobs:
   call_reusable_workflow:
-    steps:
-    - name: Team Labeler
-      uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
-      with:
-        config-path: .github/teams.yml
-      secrets:
-        token: ${{ secrets.GITHUB_TOKEN }}
+    name: Team Labeler
+    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
+    with:
+      config-path: .github/teams.yml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
