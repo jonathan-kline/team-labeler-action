@@ -13,7 +13,7 @@ This repository provides a **GitHub action** to automatically **team label** on 
 This is useful if multiple team are working on the same project.
 
 ![example](./assets/example.png)
-
+fdsa
 ## Configuration
 
 ### Create `.github/teams.yml`
