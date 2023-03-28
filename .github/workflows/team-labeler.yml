@@ -6,9 +6,10 @@ on:
 jobs:
   call_reusable_workflow:
     name: Team Labeler
-    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml
+    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
     with:
       teams_repo: jonathan-kline/hello-world
+      teams_branch: main
       configuration-path: .github/teams.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
