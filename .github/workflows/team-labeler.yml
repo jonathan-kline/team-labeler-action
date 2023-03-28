@@ -13,4 +13,4 @@ jobs:
       teams-repo: jonathan-kline/hello-world
       teams-branch: main
     secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+      repo-token: ${{ secrets.GITHUB_TOKEN }}
