@@ -6,7 +6,7 @@ on:
 jobs:
   call_reusable_workflow:
     name: Team Labeler
-    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
+    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml
     with:
       teams_repo: jonathan-kline/hello-world
       configuration-path: .github/teams.yml
