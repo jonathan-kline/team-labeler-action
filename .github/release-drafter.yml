@@ -1,2 +1,9 @@
 _extends: jonathan-kline/hello-world
 name-template: 'v$RESOLVED_VERSION: Team Labeler Action Release'
+template: |
+  --
+  TURDS
+  $CHANGES
+  
+  --
+footer: '_Full Changelog: [$PREVIOUS_TAG...$RESOLVED_VERSION](https://github.com/kin/dot-com/compare/$PREVIOUS_TAG...$RESOLVED_VERSION)_'
