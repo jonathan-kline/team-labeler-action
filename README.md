@@ -12,7 +12,7 @@
 This repository provides a **GitHub action** to automatically **team label** on a **pull request** based author team.
 This is useful if multiple team are working on the same project.
 
-![example](./assets/example.png)
+![example](./assets/example.png)fdsafdsa
 fdsa
 ## Configuration
 
