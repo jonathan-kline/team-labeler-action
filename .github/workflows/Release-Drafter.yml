@@ -12,5 +12,5 @@ jobs:
     with:
       config-path: .github/release-drafter.yml
     secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      token: ${{ secrets.GITHUB_TOKEN }}
 
