@@ -37,7 +37,7 @@ jobs:
       with:
         disable-autolabeler: true
         _extends: jonathan-kline/hello-world
-        config-name: .github/release-drafter.yml
+        config-name: release-drafter.yml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
