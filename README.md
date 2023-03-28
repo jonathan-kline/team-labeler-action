@@ -15,7 +15,7 @@ This is useful if multiple team are working on the same project.
 ![example](./assets/example.png)
 fdsa
 ## Configuration
-
+gfds
 ### Create `.github/teams.yml`
 
 You need to provide a yml file that contains members of your teams:
