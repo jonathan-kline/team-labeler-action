@@ -5,12 +5,16 @@ on:
   pull_request_target:
     types: [opened]
 jobs:
-  call_reusable_workflow:
-    name: Team Labeler
-    uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
-    with:
-      configuration-path: .github/teams.yml
-      teams-repo: jonathan-kline/hello-world
-      teams-branch: main
-    secrets:
-      repo-token: ${{ secrets.GITHUB_TOKEN }}
+  team-label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+    - name: Team Labeler
+      uses: JulienKode/team-labeler-action@v1.0.0
+      with:
+        configuration-path: .github/teams.yml
+        teams-repo: jonathan-kline/hello-world
+        teams-branch: main
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
