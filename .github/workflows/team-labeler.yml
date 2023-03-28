@@ -10,5 +10,7 @@ jobs:
     uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
     with:
       configuration-path: .github/teams.yml
+      teams-repo: hello-world
+      teams-branch: main
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
