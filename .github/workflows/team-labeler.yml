@@ -12,4 +12,4 @@ jobs:
       configuration-path: .github/teams.yml
       teams-repo: jonathan-kline/hello-world
       teams-branch: main
-      repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
