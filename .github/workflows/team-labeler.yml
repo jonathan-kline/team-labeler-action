@@ -8,6 +8,6 @@ jobs:
     name: Team Labeler
     uses: jonathan-kline/hello-world/.github/workflows/Team-Label.yml@main
     with:
-      config-path: jonathan-kline/hello-world/.github/teams.yml
+      configuration-path: jonathan-kline/hello-world/.github/teams.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
