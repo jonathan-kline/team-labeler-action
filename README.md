@@ -17,7 +17,7 @@ fdsa
 ## Configuration
 
 ### Create `.github/teams.yml`
-
+grt
 You need to provide a yml file that contains members of your teams:
 
 ```yaml
