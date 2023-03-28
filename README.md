@@ -1,4 +1,4 @@
-# Team Labeler Action 👥
+# Team Labeler Action 👥 TESTING
 
 [![build](https://github.com/JulienKode/team-labeler-action/workflows/build/badge.svg)](https://github.com/JulienKode/team-labeler-action/actions)
 [![test](https://github.com/JulienKode/team-labeler-action/workflows/test/badge.svg)](https://github.com/JulienKode/team-labeler-action/actions)
