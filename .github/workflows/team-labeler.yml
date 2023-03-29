@@ -14,5 +14,5 @@ jobs:
     - name: Team Labeler
       uses: JulienKode/team-labeler-action@v1.0.0
       with:
-        configuration-path: .github/teams.yml@main
+        configuration-path: .github/teams.yml
         repo-token: ${{ secrets.GITHUB_TOKEN }}
