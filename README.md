@@ -14,7 +14,7 @@ This is useful if multiple team are working on the same project.
 
 ![example](./assets/example.png)fdsafdsa
 fdsa
-## Configuration
+## Configurationhgdf
 
 ### Create `.github/teams.yml`
 
