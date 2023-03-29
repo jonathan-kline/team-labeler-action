@@ -39,7 +39,7 @@ This action only needs the GITHUB_TOKEN secret as it interacts with the GitHub A
 
 ```yaml
 on: pull_request
-name: team-label
+name: team-labelnhg
 jobs:
   team-labeler:
     runs-on: ubuntu-latest
