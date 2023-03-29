@@ -11,13 +11,10 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-    - name: Checkout tools repo
-      uses: actions/checkout@v3
-      with:
-        repository: jonathan-kline/hello-world
-        path: .github/teams.yml
     - name: Team Labeler
       uses: JulienKode/team-labeler-action@v1.0.0
       with:
+        repository: jonathan-kline/hello-world
+        path: .github/teams.yml
         configuration-path: jonathan-kline/hello-world/.github/teams.yml
         repo-token: ${{ secrets.GITHUB_TOKEN }}
