@@ -16,7 +16,7 @@ This is useful if multiple team are working on the same project.
 fdsa
 ## Configuration
 
-### Create `.github/teams.yml`
+### Create `.github/teams.yml`gtre
 
 You need to provide a yml file that contains members of your teams:
 
