@@ -9,7 +9,7 @@
 [![Watch on GitHub](https://img.shields.io/github/watchers/JulienKode/team-labeler-action.svg?style=social)](https://github.com/JulienKode/team-labeler-action/watchers)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/JulienKode/team-labeler-action.svg?style=social)](https://twitter.com/intent/tweet?text=Checkout%20this%20library%20https%3A%2F%2Fgithub.com%2FJulienKode%2Fteam-labeler-action)
 
-This repository provides a **GitHub action** to automatically **team label** on a **pull request** based author team.
+This repository provides a **GitHub action** to automathgfdically **team label** on a **pull request** based author team.
 This is useful if multiple team are working on the same project.
 
 ![example](./assets/example.png)fdsafdsa
